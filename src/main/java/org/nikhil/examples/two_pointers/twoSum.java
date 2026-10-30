@@ -1,7 +1,6 @@
 package org.nikhil.examples.two_pointers;
 
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Scanner;
 
 /**
@@ -84,6 +83,8 @@ public class twoSum {
 }
 
 /**
+ * Solution: https://www.hellointerview.com/learn/code/two-pointers/two-sum
+ *
  * Summary:
  * The two-pointer technique leverages the fact that the input array is sorted to eliminate the number of pairs we consider from O(n2)down to O(n).
  * The two-pointers start at opposite ends of the array, and represent the pair of numbers we are currently considering.
