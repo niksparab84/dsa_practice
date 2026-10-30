@@ -28,7 +28,7 @@ public class FixedLengthSlidingWindow {
         for(int end = 0; end < nums.length; end++) {
             windowSum += nums[end];
 
-            if(end - start + 1 > k) {
+            if(end - start + 1 == k) {
                 maxSum = Math.max(maxSum, windowSum);
                 windowSum -= nums[start];
                 start++;
